@@ -1,0 +1,56 @@
+database:
+  implementation: 'sqlite'
+  host: 'localhost'
+  port: 3306
+  database: 'vaultedtags'
+  username: 'root'
+  password: ''
+
+license: 'XXXX-XXXX-XXXX-XXXX'
+
+placeholders:
+  tag:
+    none: 'None'
+    format: '{format}'
+  tag-chat:
+    none: 'None'
+    format: '{format}'
+  tag-tab:
+    none: 'None'
+    format: '{format}'
+  tag-identifier:
+    none: 'None'
+    format: '{format}'
+  tag-scoreboard:
+    none: 'None'
+    format: '{format}'
+
+no-tag-selected-placeholder: 'None Selected'
+
+apply:
+  sound:
+    enabled: true
+    type: 'entity_player_levelup'
+    volume: 1
+    pitch: 2
+
+clear:
+  sound:
+    enabled: true
+    type: 'entity_bat_takeoff'
+    volume: 1
+    pitch: 2
+
+no-tag-selected:
+  sound:
+    enabled: true
+    type: 'entity_bat_takeoff'
+    volume: 1
+    pitch: 2
+
+no-permission:
+  sound:
+    enabled: true
+    type: 'entity_bat_takeoff'
+    volume: 1
+    pitch: 2
